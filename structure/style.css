@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: gainsboro;
+    position: relative;
+}
+header{
+ 
+    display: flex;
+    padding: 0px 10px ;
+    background-color: #fff;
+  
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.companyName{
+    display: flex;
+    flex: 1;
+    /* justify-content: center; */
+    /* background-color: pink; */
+    width: 900px;
+   
+   
+}
+.companyName p{
+    margin:35px 0px 0px 35px;
+    font-size: 20px;
+
+}
+.odd1{
+    margin: 30px 0px 0px 15px;
+    width: 150px;
+}
+.companyName h2 {
+   margin-top: 32px;
+   margin-left: 8px; 
+   font-size: 30px;
+}
+.companyName img{
+   height: 80px;
+   margin-top: 10px;
+
+}
+
+nav{
+    flex: 1;
+    margin-left: 500px;
+    margin-top: 35px;
+   
+
+}
+nav li:not(:nth-child(1)){
+    display: inline-block;
+    margin-left:30px ;
+
+}
+nav li:nth-child(1){
+    display: inline-block;
+    margin-left:-50px;
+   
+}
+nav a{
+    text-decoration: none;
+    color:grey;
+    font-size: 20px;
+}
+.top-btn{
+    /* display: flex; */
+    justify-content: space-between;
+    border: 2px solid rgb(5, 73, 221);
+    background-color: rgb(5, 73, 221) ;
+    padding: 5px 15px;
+    color: #fff;
+    width: 150px;
+
+}
+.ml-8px{
+    margin-left: 15px;
+
+}
+.sharp{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.grid1{
+    display: flex;
+    width: 80%;
+    margin: 50px auto 0px auto;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr;
+    padding: 10px 80px 10px 80px; */
+    
+}
+
+.secondGrid{
+    margin-left: 2px;
+}
+.ontop{
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 10px 10px;
+    margin-left: 2px;
+    width: 719px;
+    height: 220px;
+}
+.ontop2{
+    border: 2px solid #fff;
+    background-color: #fff;
+    width: 700px;
+    padding: 10px 10px;
+    margin-left: 2px;
+    height: 220px;
+
+}
+.ontop h2,.ontop2 h2{
+   font-size: 35px; 
+   font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.ontop p,.ontop2 p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0a6bfc;
+    color: #fff;
+    margin-top: 20px;
+}
+.grid2{
+    margin-top: 60px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 150px;
+  
+}
+.contain-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid2 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px; 
+}
+.fsz-15px{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+.insideGrid{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.ml-0px{
+    margin-left: 0px;
+}
+.ml-10px{
+    margin-left: 100px;
+}
+.insideGrid h3{
+    font-size: 22px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.insideGrid p{
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+section h1{
+    font-family: 'Libre Franklin', sans-serif;
+
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+} 
+.under-h1{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+
+}
+.column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 150px;
+}
+.column1{
+    
+    padding: 10px 20px;
+}
+.column2{
+    
+    padding: 10px 20px;
+}
+.column3{
+    
+    padding: 10px 20px;
+}
+.ml-50px{
+    margin-left: 50px;
+}
+.column1 h3,.column2 h3,.column3 h3{
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+.wrapper{
+    background-color: #fff;
+    padding: 30px 30px;
+}
+.column1 p,.column2 p,.column3 p{
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.underSection{
+   background-color: black;
+   position: relative;
+}
+.underSection h2{
+    font-size: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+}
+.svgs{
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.svgs img{
+   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+   width: 150px;
+   height: 60px;
+   margin-left: 70px;
+}
+.margin-left{
+    margin-left: 0px;
+}
+.white img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    width: 320px;
+    height: 120px;
+    margin: 120px auto 0px auto;
+}
+.black img{
+    margin: 120px auto 0px auto;
+    width: 320px;
+    height: 120px;
+    
+}
+.flex1,.flex2,.flex3,.flex4,.flex5,.flex6{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   
+
+}
+.mySlides{
+    flex: 1;
+    margin-bottom: 10px;
+  
+    text-align: center;
+    height: 380px;
+
+   
+}
+.child2{
+    flex: 1;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    background-color: peru;
+    height: 380px;
+}
+.child2 p{
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+.child2 a{
+    text-decoration: underline;
+    color:black ;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: block;
+}
+.quote{
+    font-size: 15px;
+
+}
+.container{
+    position: relative;
+    padding: 40px 10px;
+}
+.slideshowContainer{
+    display: flex;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+   
+    top: 440px;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+   
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease-in;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    color: black;
+    opacity: 0.4;
+    /* background-color: #fff; */
+  }
+  .prev {
+    left: 165px;
+  }
+
+  .next {
+    right: 155px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+  }
+  .last-section h2{
+    font-size: 40px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .under-h2{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .grid3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 10px 120px;
+  }
+  .gridContent{
+    font-family: 'Libre Franklin', sans-serif;
+      margin-left: 20px;
+      padding: 10px 20px;
+  }
+  .text-content h3{
+    
+    font-size: 24px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  .text-content p{
+    font-family: 'Roboto Flex', sans-serif;
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 1.2;
+  }
+  .superHeader{
+    font-family: 'Libre Franklin', sans-serif;
+
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px; 
+  }
+  .odd{
+    font-family: 'Libre Franklin', sans-serif;
+      font-size: 18px;
+      text-align: center;
+     margin-top: 10px;
+
+  }
+ input{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-top: -5px;
+
+ }
+label{
+    font-size: 20px;
+}
+.select{
+    /* display: block;
+    width: 400px; */
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.column-contain{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 150px;
+  margin-top: 20px;
+}
+.ml-20px{
+    margin-left: 5px;
+}
+.oneColumn,.twoColumn,.threeColumn{
+    background-color: #fff;
+    margin-left: 10px;
+}
+.content{
+
+    padding: 15px 20px;
+}
+.content span{
+    font-size: 20px;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 20px;
+}
+.content h2{
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+}
+.content p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.color-white{
+    color: #fff;
+}
+.grey{
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 15px 20px;  
+    font-size: 20px;
+    background-color:lightblue;
+    margin-top: 20px;
+  
+}
+.grey ul{
+    list-style: none;
+}
+.grey li{
+    margin-bottom: 10px;
+}
+.grey span{
+    margin-left: 8px;
+}
+.grey p{
+     margin-left: 30px; 
+    
+}
+.plan-section{
+    font-family: 'Libre Franklin', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 160px;
+    background-color: #fff;
+   
+}
+.plan1 ul{
+    list-style: url(../gallery/tick.svg);
+    padding: 10px 20px;
+  
+   
+
+}
+.plan1{
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.plan1 li{
+    margin-top: 20px;
+    font-size: 20px;
+   
+
+}
+.left{
+    margin-left: 10px;
+}
+.plan h3{
+    font-size: 24px;
+}
+.dialog{
+    width: 80%;
+    margin: 30px auto 0px auto;
+}
+.dialog h1{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.qst1{
+    width: 1118px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   font-weight: 500;
+   display: flex;
+   justify-content: space-between;
+}
+.qst1 img{
+   margin-top: -5px;
+}
+.mgbtm-0px{
+    margin-bottom: 15px;
+}
+.line{
+    width: 1200px;
+    height: 1px;
+    background-color: black;
+    /* margin-top: 50px; */
+   
+}
+.firstLine{
+    margin-top: 50px;
+}
+.dialog span{
+    margin-top: 5px;
+    margin-left: 300px;
+}
+footer{
+    height: 480px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 140px;
+    padding: 10px 150px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Roboto Flex', sans-serif;
+    position: relative;
+   
+}
+.row{
+    margin-left: 50px;
+}
+.row ul{
+    list-style: none;
+}
+.row li{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.row h2{
+    margin-top: 30px;
+}
+footer h3{
+  position: absolute;
+  top: 450px;
+  left: 650px ;
+  font-size: 24px;
+}
